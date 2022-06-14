@@ -42,7 +42,7 @@
               />
             </svg>
           </a>
-          <a>
+          <a href="https://github.com/FeckNeck" target="_blank">
             <svg
               class="
                 mx-2

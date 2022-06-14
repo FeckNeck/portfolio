@@ -13,10 +13,11 @@
       <div class="sm:flex justify-evenly items-center">
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
-            Diplômé par l'université Claude Bernard Lyon 1 en Technologies de
-            l'Information, j'ai pu bénéficier de nombreuses expériences
-            professionnelles et personnelles en tant que développeur, avant de
-            me consacrer à l'enseignement dès la fin de l'année 2018.
+            Actuellement en première année de master informatique a l'université
+            Lyon 1, je me passione pour le développement et en particulier dans
+            le domaine du web. J'ai pour ambition de devenir développeur
+            fullstack et mettre a profits mes connaissances et compétences en
+            entreprise.
           </p>
         </div>
         <div
@@ -34,10 +35,36 @@
         </div>
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
-            Diplômé par l'université Claude Bernard Lyon 1 en Technologies de
-            l'Information, j'ai pu bénéficier de nombreuses expériences
-            professionnelles et personnelles en tant que développeur, avant de
-            me consacrer à l'enseignement dès la fin de l'année 2018.
+            Mon cursus m'offre l'opportunité de réalisé un stage dans l'objectif
+            de validé mon année. Si jamais vous etes a la recherche d'un
+            stagiaire et potenciel alternant pour l'année qui suit n'hésitez pas
+            me contacter par
+            <a
+              href="mailto:mathis.dousse@outlook.fr"
+              class="
+                bg-animation
+                border-b-2 border-teal-400
+                pb-1
+                hover:text-white hover:bg-bottom
+                transition-color
+                duration-300
+              "
+              >mail</a
+            >
+            ou sur
+            <a
+              href="https://www.linkedin.com/in/mathis-dousse"
+              target="_blank"
+              class="
+                bg-animation
+                border-b-2 border-teal-400
+                pb-1
+                hover:text-white hover:bg-bottom
+                transition-color
+                duration-300
+              "
+              >linkedin</a
+            >
           </p>
         </div>
       </div>

@@ -8,3 +8,9 @@
         src: local('Nunito'), url(./assets/fonts/Nunito-Regular.ttf) format('ttf');
     }
 }
+
+.bg-animation{
+    background-image: linear-gradient(to top, rgb(45 212 191)  50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top;
+}

@@ -98,9 +98,9 @@
               "
             >
               <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 11"
+                width="18"
+                height="18"
+                viewBox="0 2 24 11"
                 fill="none"
                 stroke="currentColor"
                 stroke-width="1"
@@ -108,60 +108,69 @@
                 stroke-linejoin="round"
               >
                 <rect x="1" y="1" fill="none" width="18" height="11"></rect>
-                <line x1="1" y1="1" x2="9" y2="6"></line>
-                <line x1="9" y1="6" x2="18" y2="1"></line>
-                <line x1="1" y1="11" x2="5" y2="6"></line>
-                <line x1="18" y1="11" x2="13" y2="6"></line>
+                <line x1="1" y1="1" x2="8" y2="6"></line>
+                <line x1="19" y1="1" x2="12" y2="6"></line>
+                <line x1="1" y1="12" x2="6" y2="5"></line>
+                <line x1="19" y1="12" x2="14" y2="5"></line>
+                <line x1="8" y1="6" x2="12" y2="6"></line>
               </svg>
               <span>Me contacter </span></a
             >
           </div>
         </div>
-        <a
-          href="mailto:mathis.dousse@outlook.fr"
-          class="
-            hidden
-            sm:flex
-            items-center
-            px-3
-            py-2
-            bg-teal-400
-            text-white
-            rounded
-            hover:cursor-pointer hover:bg-teal-600
-            transition-colors
-            duration-300
-          "
-        >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 11"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+        <div class="flex flex-row">
+          <a
+            href="mailto:mathis.dousse@outlook.fr"
+            class="
+              hidden
+              sm:flex
+              items-center
+              px-3
+              py-2
+              bg-teal-400
+              text-white
+              rounded
+              hover:cursor-pointer hover:bg-teal-600
+              transition-colors
+              duration-300
+            "
           >
-            <rect x="1" y="1" fill="none" width="18" height="11"></rect>
-            <line x1="1" y1="1" x2="9" y2="6"></line>
-            <line x1="9" y1="6" x2="18" y2="1"></line>
-            <line x1="1" y1="11" x2="5" y2="6"></line>
-            <line x1="18" y1="11" x2="13" y2="6"></line>
-          </svg>
-          <span>Me contacter </span></a
-        >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 11"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="1" y="1" fill="none" width="18" height="11"></rect>
+              <line x1="1" y1="1" x2="8" y2="6"></line>
+              <line x1="19" y1="1" x2="12" y2="6"></line>
+              <line x1="1" y1="12" x2="6" y2="5"></line>
+              <line x1="19" y1="12" x2="14" y2="5"></line>
+              <line x1="8" y1="6" x2="12" y2="6"></line>
+            </svg>
+            <span>Me contacter </span></a
+          >
+          <theme-switch-vue></theme-switch-vue>
+        </div>
       </div>
     </nav>
   </header>
 </template>
 
 <script>
+import ThemeSwitchVue from "./ThemeSwitch.vue";
 export default {
   data() {
     return {
       isOpen: false,
     };
+  },
+  components: {
+    ThemeSwitchVue,
   },
 };
 </script>

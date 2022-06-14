@@ -11,7 +11,7 @@
     >
       <p class="text-4xl text-center py-8">Mes projects personnels</p>
       <div class="grid sm:grid-cols-2 gap-6 sm:px-0 px-4">
-        <div
+        <a
           class="
             border
             rounded
@@ -22,6 +22,9 @@
           "
           v-for="(project, index) in projects"
           :key="index + project.name"
+          :href="
+            'https://github.com/FeckNeck/' + project.name.toLocaleLowerCase()
+          "
         >
           <div class="flex items-center">
             <svg
@@ -56,7 +59,7 @@
               <p>{{ techno.name }}</p>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
