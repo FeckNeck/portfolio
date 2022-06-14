@@ -43,7 +43,6 @@
               href="mailto:mathis.dousse@outlook.fr"
               class="
                 bg-animation
-                border-b-2 border-teal-400
                 pb-1
                 hover:text-white hover:bg-bottom
                 transition-color
@@ -57,7 +56,6 @@
               target="_blank"
               class="
                 bg-animation
-                border-b-2 border-teal-400
                 pb-1
                 hover:text-white hover:bg-bottom
                 transition-color

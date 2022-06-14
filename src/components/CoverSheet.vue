@@ -29,6 +29,7 @@
               duration-300
               sm:mb-0
               mb-10
+              dark:bg-secondary-dark
             "
           >
             <svg

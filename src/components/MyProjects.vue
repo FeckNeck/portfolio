@@ -19,6 +19,7 @@
             hover:cursor-pointer hover:shadow-custom hover:-translate-y-2
             transition-all
             duration-300
+            dark:bg-secondary-dark
           "
           v-for="(project, index) in projects"
           :key="index + project.name"

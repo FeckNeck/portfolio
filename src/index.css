@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    @font-face {
-        font-family: 'Nunito';
-        src: local('Nunito'), url(./assets/fonts/Nunito-Regular.ttf) format('ttf');
-    }
+@font-face {
+    font-family: 'Nunito';
+    src: url("./assets/fonts/Nunito-Regular.ttf");
 }
 
+
 .bg-animation{
-    background-image: linear-gradient(to top, rgb(45 212 191)  50%, white 50%);
+    background-image: linear-gradient(to top, rgb(45 212 191)  53%, transparent 50%);
     background-size: 100% 200%;
     background-position: top;
 }

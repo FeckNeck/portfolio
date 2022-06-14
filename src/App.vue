@@ -1,7 +1,9 @@
 <template>
-  <my-hearder-vue></my-hearder-vue>
-  <router-view data-aos="fade-right" />
-  <my-footer-vue></my-footer-vue>
+  <div class="font-body bg-bermuda dark:bg-primary-dark dark:text-white transition-bg duration-300">
+    <my-hearder-vue></my-hearder-vue>
+    <router-view data-aos="fade-right" />
+    <my-footer-vue></my-footer-vue>
+  </div>
 </template>
 
 <script>

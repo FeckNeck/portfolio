@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-slate-400 mt-4">
+  <footer class="bg-slate-400 mt-4 dark:bg-ternary-dark">
     <div
       class="
         xl:px-24 xl:max-w-7xl
