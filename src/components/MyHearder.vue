@@ -17,6 +17,7 @@
           <a>
             <img src="../assets/logo-hugomrvt.png" class="h-6" />
           </a>
+          <theme-switch-vue class="sm:hidden block"></theme-switch-vue>
           <button class="sm:hidden" type="button" @click="isOpen = !isOpen">
             <svg
               width="24"
@@ -154,7 +155,7 @@
             </svg>
             <span>Me contacter </span></a
           >
-          <theme-switch-vue></theme-switch-vue>
+          <theme-switch-vue class="sm:block hidden px-4"></theme-switch-vue>
         </div>
       </div>
     </nav>

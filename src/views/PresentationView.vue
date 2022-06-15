@@ -1,8 +1,10 @@
 <template>
-  <cover-sheet></cover-sheet>
-  <about-me></about-me>
-  <my-technos></my-technos>
-  <my-projects></my-projects>
+  <div data-aos="fade-right" data-aos-duration="800">
+    <cover-sheet></cover-sheet>
+    <about-me></about-me>
+    <my-technos></my-technos>
+    <my-projects></my-projects>
+  </div>
 </template>
 
 <script>

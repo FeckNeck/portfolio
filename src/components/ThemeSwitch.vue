@@ -1,5 +1,9 @@
 <template>
-  <button class="px-4" href="#" @click.prevent="switchTheme">
+  <button
+    class="hover:scale-110 duration-300"
+    href="#"
+    @click.prevent="switchTheme"
+  >
     <svg
       width="20"
       height="20"
@@ -46,20 +50,20 @@ export default {
       theme: String,
     };
   },
-  methods:{
-    switchTheme(){
-      if(this.theme === 'light'){
-        document.documentElement.classList.add('dark');
-        this.theme = 'dark';
-      }else{
-        document.documentElement.classList.remove('dark');
-        this.theme = 'light';
+  methods: {
+    switchTheme() {
+      if (this.theme === "light") {
+        document.documentElement.classList.add("dark");
+        this.theme = "dark";
+      } else {
+        document.documentElement.classList.remove("dark");
+        this.theme = "light";
       }
-    }
+    },
   },
-  mounted (){
-    this.theme = localStorage.getItem('theme') || 'light'
-  }
+  mounted() {
+    this.theme = localStorage.getItem("theme") || "light";
+  },
 };
 </script>
 
