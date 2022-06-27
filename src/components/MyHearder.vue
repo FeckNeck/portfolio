@@ -15,7 +15,13 @@
       <div class="sm:flex sm:justify-between sm:items-center py-5">
         <div class="flex justify-between items-center">
           <a>
-            <img src="../assets/logo-hugomrvt.png" class="h-6" />
+            <img
+              src="../assets/logo-hugomrvt.png"
+              class="w-28"
+              width="512"
+              height="113"
+              alt="logo"
+            />
           </a>
           <theme-switch-vue class="sm:hidden block"></theme-switch-vue>
           <button class="sm:hidden" type="button" @click="isOpen = !isOpen">

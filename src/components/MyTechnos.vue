@@ -22,20 +22,6 @@
           <title>{{ techno.name }}</title>
           <path :d="techno.svg" fill="currentColor" />
         </svg>
-        <!-- <svg width="64" height="64" viewBox="0 0 32 32">
-          <path
-            d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
-          />
-        </svg>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div>
-        <div class="bg-stone-700 w-16 h-16 m-2"></div> -->
       </div>
     </div>
   </section>
@@ -49,9 +35,7 @@ export default {
       techno,
     };
   },
-  mounted: function () {
-    console.log(techno[0].name);
-  },
+  mounted: function () {},
 };
 </script>
 

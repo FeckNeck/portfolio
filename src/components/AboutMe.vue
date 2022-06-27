@@ -31,6 +31,9 @@
               transition-all
             "
             src="../assets/me.jpg"
+            width="1800"
+            height="1892"
+            alt="profile picture of myself"
           />
         </div>
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">

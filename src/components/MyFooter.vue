@@ -23,7 +23,11 @@
             pt-3
           "
         >
-          <a href="https://www.linkedin.com/in/mathis-dousse" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/mathis-dousse"
+            target="_blank"
+            aria-label="linkedin"
+          >
             <svg
               class="
                 mx-2
@@ -42,7 +46,11 @@
               />
             </svg>
           </a>
-          <a href="https://github.com/FeckNeck" target="_blank">
+          <a
+            href="https://github.com/FeckNeck"
+            target="_blank"
+            aria-label="github"
+          >
             <svg
               class="
                 mx-2

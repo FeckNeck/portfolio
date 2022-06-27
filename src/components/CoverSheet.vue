@@ -55,6 +55,8 @@
         class="sm:w-2/3 sm:px-0 px-4"
         src="../assets/dev.svg"
         alt="Developper"
+        width="786.82"
+        height="572.258"
       />
     </div>
   </div>
