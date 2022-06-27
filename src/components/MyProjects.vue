@@ -13,6 +13,8 @@
       <div class="grid sm:grid-cols-2 gap-6 sm:px-0 px-4">
         <a
           class="
+            flex flex-col
+            justify-between
             border
             rounded
             p-2

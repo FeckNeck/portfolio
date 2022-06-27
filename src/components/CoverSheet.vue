@@ -30,6 +30,8 @@
               sm:mb-0
               mb-10
               dark:bg-secondary-dark
+              dark:hover:bg-teal-400
+              dark:hover:text-white
             "
           >
             <svg

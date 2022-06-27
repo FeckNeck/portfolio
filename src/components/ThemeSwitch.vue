@@ -56,14 +56,17 @@ export default {
       if (this.theme === "light") {
         document.documentElement.classList.add("dark");
         this.theme = "dark";
+        localStorage.setItem("theme", "dark");
       } else {
         document.documentElement.classList.remove("dark");
         this.theme = "light";
+        localStorage.setItem("theme", "light");
       }
     },
   },
   mounted() {
     this.theme = localStorage.getItem("theme") || "light";
+    this.switchTheme();
   },
 };
 </script>
