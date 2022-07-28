@@ -14,7 +14,7 @@
         <p class="text-2xl pt-3 pb-5 font-light">Etudiant en Informatique</p>
         <div class="flex justify-center sm:block">
           <a
-            href="../assets/Mathis_Dousse_CV.pdf"
+            href="/file/Mathis_Dousse_CV.pdf"
             download
             class="
               flex

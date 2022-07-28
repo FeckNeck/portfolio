@@ -28,6 +28,7 @@
           :href="
             'https://github.com/FeckNeck/' + project.name.toLocaleLowerCase()
           "
+          target="_blank"
         >
           <div class="flex items-center">
             <svg

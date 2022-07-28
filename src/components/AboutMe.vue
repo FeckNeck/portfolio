@@ -10,7 +10,7 @@
       "
     >
       <p class="text-4xl text-center py-8">A propos</p>
-      <div class="sm:flex justify-evenly items-center">
+      <div class="sm:flex justify-between items-center">
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
             Actuellement en première année de master informatique a l'université

@@ -16,8 +16,15 @@
         <div class="flex justify-between items-center">
           <a>
             <img
-              src="../assets/logo-hugomrvt.png"
-              class="w-28"
+              src="../assets/logo.png"
+              class="w-24 hidden sm:block"
+              width="512"
+              height="113"
+              alt="logo"
+            />
+            <img
+              src="../assets/logo_mobile.png"
+              class="w-12 sm:hidden block"
               width="512"
               height="113"
               alt="logo"
