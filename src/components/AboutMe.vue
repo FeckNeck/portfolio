@@ -14,7 +14,7 @@
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
             Actuellement en première année de master informatique a l'université
-            Lyon 1, je me passione pour le développement et en particulier dans
+            Lyon 2, je me passione pour le développement et en particulier dans
             le domaine du web. J'ai pour ambition de devenir développeur
             fullstack et mettre a profits mes connaissances et compétences en
             entreprise.
