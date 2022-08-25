@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-right" data-aos-duration="800">
+  <div>
     <cover-sheet></cover-sheet>
     <about-me></about-me>
     <my-technos></my-technos>

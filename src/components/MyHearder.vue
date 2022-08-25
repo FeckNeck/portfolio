@@ -14,24 +14,27 @@
     >
       <div class="sm:flex sm:justify-between sm:items-center py-5">
         <div class="flex justify-between items-center">
-          <a>
-            <img
-              src="../assets/logo.png"
-              class="w-24 hidden sm:block"
-              width="512"
-              height="113"
-              alt="logo"
-            />
-            <img
-              src="../assets/logo_mobile.png"
-              class="w-12 sm:hidden block"
-              width="512"
-              height="113"
-              alt="logo"
-            />
-          </a>
+          <img
+            src="../assets/logo.png"
+            class="w-24 hidden sm:block"
+            width="512"
+            height="113"
+            alt="logo"
+          />
+          <img
+            src="../assets/logo_mobile.png"
+            class="w-12 sm:hidden block"
+            width="512"
+            height="113"
+            alt="logo"
+          />
           <theme-switch-vue class="sm:hidden block"></theme-switch-vue>
-          <button class="sm:hidden" type="button" @click="isOpen = !isOpen">
+          <button
+            class="sm:hidden"
+            type="button"
+            @click="isOpen = !isOpen"
+            alt="open menu"
+          >
             <svg
               width="24"
               height="24"
@@ -80,7 +83,7 @@
             "
             >Présentation</router-link
           >
-          <a
+          <p
             class="
               block
               sm:px-5 sm:py-0
@@ -90,8 +93,9 @@
               transition-colors
               duration-300
             "
-            >Projets</a
           >
+            Projets
+          </p>
           <div>
             <a
               href="mailto:mathis.dousse@outlook.fr"

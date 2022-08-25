@@ -9,7 +9,9 @@
     "
   >
     <my-hearder-vue></my-hearder-vue>
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
     <my-footer-vue></my-footer-vue>
   </div>
 </template>
@@ -49,6 +51,16 @@ html {
   width: 100%;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.8s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  transform: translateX(-80px);
 }
 
 @media (min-width: 1280px) {
