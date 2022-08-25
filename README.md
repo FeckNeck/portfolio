@@ -1,5 +1,7 @@
 # portfolio
 
+![image](https://user-images.githubusercontent.com/41020659/186585160-3638f2ef-c2cf-4784-a2f3-be5c809b38b6.png)
+
 ## Project setup
 ```
 npm install
