@@ -1,5 +1,5 @@
 <template>
-  <section class="py-14">
+  <section class="py-14" id="projects">
     <div
       class="
         xl:px-24 xl:max-w-5xl
@@ -9,7 +9,7 @@
         mx-auto
       "
     >
-      <p class="text-4xl text-center py-8">Mes projects personnels</p>
+      <p class="text-4xl text-center py-8">Mes projets personnels</p>
       <div class="grid sm:grid-cols-2 gap-6 sm:px-0 px-4">
         <a
           class="

@@ -9,14 +9,14 @@
         mx-auto
       "
     >
-      <p class="text-4xl text-center py-8">A propos</p>
+      <p class="text-4xl text-center py-8">À propos</p>
       <div class="sm:flex justify-between items-center">
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
-            Actuellement en première année de master informatique a l'université
-            Lyon 2, je me passione pour le développement et en particulier dans
+            Actuellement en première année de master informatique à l'université
+            Lyon 2, je me passionne pour le développement et en particulier dans
             le domaine du web. J'ai pour ambition de devenir développeur
-            fullstack et mettre a profits mes connaissances et compétences en
+            fullstack et mettre à profit mes connaissances et compétences en
             entreprise.
           </p>
         </div>
@@ -38,10 +38,10 @@
         </div>
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
-            Mon cursus m'offre l'opportunité de réalisé un stage dans l'objectif
-            de validé mon année. Si jamais vous etes a la recherche d'un
-            stagiaire et potenciel alternant pour l'année qui suit n'hésitez pas
-            me contacter par
+            Mon cursus m'offre l'opportunité de réaliser un stage dans
+            l'objectif de valider mon année. Si jamais vous êtes à la recherche
+            d'un stagiaire et potentiel alternant pour l'année qui suit,
+            n'hésitez pas à me contacter par
             <a
               href="mailto:mathis.dousse@outlook.fr"
               class="
@@ -66,6 +66,7 @@
               "
               >linkedin</a
             >
+            .
           </p>
         </div>
       </div>
