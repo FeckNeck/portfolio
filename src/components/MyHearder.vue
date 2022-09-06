@@ -83,19 +83,19 @@
             "
             >Présentation</router-link
           >
-          <router-link
-            :to="{ name: 'Projects', hash: '#projects' }"
+          <p
             class="
               block
               sm:px-5 sm:py-0
-              py-2
+              py-3
               text-lg
               hover:cursor-pointer hover:text-teal-400
               transition-colors
               duration-300
             "
-            >Projets</router-link
           >
+            Projets
+          </p>
           <div>
             <a
               href="mailto:mathis.dousse@outlook.fr"
