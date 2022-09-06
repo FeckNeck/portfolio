@@ -3,7 +3,7 @@ import PresentationView from "../views/PresentationView";
 
 const routes = [
   {
-    path: "/",
+    path: "/:pathMatch(.*)*",
     name: "Presentationview",
     component: PresentationView,
   },
@@ -12,6 +12,14 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes: routes,
+  scrollBehavior(to) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: "smooth",
+      };
+    }
+  },
 });
 
 export default router;

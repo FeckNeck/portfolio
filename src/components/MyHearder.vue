@@ -83,7 +83,8 @@
             "
             >Présentation</router-link
           >
-          <p
+          <router-link
+            :to="{ name: 'Presentationview', hash: '#projects' }"
             class="
               block
               sm:px-5 sm:py-0
@@ -95,7 +96,7 @@
             "
           >
             Projets
-          </p>
+          </router-link>
           <div>
             <a
               href="mailto:mathis.dousse@outlook.fr"

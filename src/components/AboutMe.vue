@@ -39,11 +39,9 @@
         <div class="lg:shrink-0 lg:grow-0 lg:basis-1/4">
           <p class="px-4">
             Mon cursus m'offre l'opportunité de réaliser un stage dans
-            l'objectif de valider mon année.
-          </p>
-          <p class="px-4">
-            Si vous êtes à la recherche d'un stagiaire et potentiel alternant
-            pour l'année qui suit, n'hésitez pas à me contacter par
+            l'objectif de valider mon année. Si vous êtes à la recherche d'un
+            stagiaire et potentiel alternant pour l'année qui suit, n'hésitez
+            pas à me contacter par
             <a
               href="mailto:mathis.dousse@outlook.fr"
               class="
