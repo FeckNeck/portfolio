@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Pokebattle",
     description:
-      "A simple application in VueJS, Express and Tailwind allowing user to create teams and combat each others.",
+      "An application in VueJS, Express and Tailwind allowing users to create teams and combat each others.",
     techno: [
       {
         name: "VueJs",
@@ -21,7 +21,7 @@ const projects = [
   {
     name: "Portfolio",
     description:
-      "A simple responsive portfolio in VueJS and Tailwindcss with a dark theme.",
+      "A responsive portfolio in VueJS and Tailwindcss with a dark theme.",
     techno: [
       {
         name: "VueJs",
@@ -36,7 +36,7 @@ const projects = [
   {
     name: "PokecardStore",
     description:
-      "A simple application in Laravel allowing users to create their own pokemon card catalogue.",
+      "An application in Laravel allowing users to create their own pokemon card catalogue.",
     techno: [
       {
         name: "Laravel",
